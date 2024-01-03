@@ -1,16 +1,10 @@
 {
   "contacts": [
     {
-      "name": "12",
-      "phoneNumber": "12",
+      "name": "",
+      "phoneNumber": "1425556265256",
       "user_id": 2,
-      "id": 1
-    },
-    {
-      "name": "23hg",
-      "phoneNumber": "23h",
-      "user_id": 2,
-      "id": 2
+      "id": 3
     }
   ]
 }

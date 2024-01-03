@@ -29,6 +29,14 @@ const Modal = ({ onSetModalIsOn, onSetContacts, userId, fillToEdit, updatedConta
 
   const handleInputChange = (e) => {
     const { value, name } = e.target;
+  
+    // Simple phone number validation (allow only numeric characters)
+    if (name === 'phoneNumber' && !/^\d*$/.test(value)) {
+      // Display an error message or handle the validation error as needed
+      console.log('Invalid phone number. Please enter only numeric characters.');
+      return;
+    }
+  
     setUserInput((prevUserInput) => ({ ...prevUserInput, [name]: value }));
   };
   const editNewContactToList = () => {

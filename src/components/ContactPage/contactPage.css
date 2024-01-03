@@ -1,0 +1,20 @@
+table, td, th {
+  text-align: center;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+#add-new-contact {
+  width: 100px;
+  height: 35px;
+  padding: 10px;
+  border: none;
+  background-color: black;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  display: block;
+  margin: auto auto 30px;
+}
